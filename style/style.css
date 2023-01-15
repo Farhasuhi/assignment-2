@@ -219,8 +219,6 @@
     padding: 24px 0;
 }
 
-
-
 .activites {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -229,10 +227,17 @@
 }
 
 .activities-container {
-    padding: 40px;
+    
     border: 1px solid #FF900E;
     border-radius: 8px;
     text-align: center;
+    padding: 40px;
+    background-color: #FFFFFF;
+    transition: background-color 2s,border-radius 2s,transform 2s;
+}
+.activities-container:hover{
+    background-color: #ffcccc;
+    border-radius: 40px;
 }
 
 .count h3 {
