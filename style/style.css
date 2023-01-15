@@ -187,9 +187,16 @@
     color: #727272;
 
 }
+.features-banner-img img{
+    width: 100%;
+}
 
 .years-experience {
-    margin: -115px 0px 0px -69px;
+    /* margin: -115px 0px 0px -69px; */
+    position: relative;
+    right: 50px;
+    bottom: 110px;
+
 }
 
 .secondary-btn {
@@ -204,7 +211,7 @@
 
 /* some fact part styles */
 .some-facts {
-    padding-top: 130px;
+    padding-top: 100px;
 }
 
 .facts-title {
@@ -371,11 +378,8 @@
     }
 
     .years-experience {
-        margin: -50px -10px;
-    }
-
-    .features-banner-img img {
-        width: 100%;
+        right: 28px;
+        bottom: 48px;
     }
 
     .secondary-btn {
@@ -385,7 +389,7 @@
 
     /* some facts */
     .some-facts {
-        padding-top: 90px;
+        padding-top: 20px;
     }
 
     .activites {
@@ -406,7 +410,7 @@
      .our-photo-gallery{
         padding: 0;
      }
-     .photo-grid{
+     .photo-grid,.another-grid{
         grid-template-columns: repeat(1,1fr);
     }
     .gallery-btn{
