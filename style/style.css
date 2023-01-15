@@ -9,25 +9,29 @@
     box-sizing: border-box;
     font-family: 'Work Sans', sans-serif;
 }
-.width{
+
+.width {
     align-items: center;
     width: 100%;
     max-width: 1400px;
     margin: 0 auto;
-    padding-top: 50px;
+    height: 100%;
 }
 
 /* header part styles */
+
+/* nav part */
 .header {
     background: #ff900e1a;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 .nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+    padding-top: 50px;
+
 }
 
 .logo h3 {
@@ -50,5 +54,39 @@
     font-weight: 500;
     font-size: 1.125rem;
     color: #424242;
+}
 
+/* banner part */
+
+.banner-info {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 4rem;
+    color: #131313;
+}
+
+.banner-description {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.62rem;
+    color: #727272;
+    padding: 33px 0;
+}
+
+.banner-img img {
+    width: 100%;
+}
+
+.primary-btn {
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+    background: #FF900E;
+    border-radius: 8px;
+    color: #FFFFFF;
+    padding: 20px;
 }
