@@ -75,7 +75,9 @@
     color: #727272;
     padding: 33px 0;
 }
-
+.banner-img{
+    padding-bottom: 50px;
+}
 .banner-img img {
     width: 100%;
 }
@@ -268,7 +270,7 @@
 
 .sponsor-title {
     font-weight: 700;
-    font-size: 45px;
+    font-size: 2.81rem;
     color: #131313;
     padding-bottom: 24px;
 }
@@ -282,15 +284,15 @@
 
 .sponsor-details {
     font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
+    font-size: 1rem;
+    line-height: 1.62rem;
     color: #727272;
 }
 
 /* footer part styles */
 .footer-details {
     font-weight: 400;
-    font-size: 20px;
+    font-size: 1.25rem;
     text-align: center;
     color: #424242;
     padding: 40px 0;
