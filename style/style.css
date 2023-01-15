@@ -1,0 +1,54 @@
+/* google font */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500;700&family=Work+Sans:wght@700;800;900&display=swap');
+
+/* common tag  */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+.width{
+    align-items: center;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+/* header part styles */
+.header {
+    background: #ff900e1a;
+    height: 100vh;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logo h3 {
+    font-weight: 500;
+    font-size: 2.8125rem;
+    color: #424242;
+}
+
+.navbar {
+    display: flex;
+    gap: 80px;
+}
+
+.navbar li {
+    list-style: none;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.125rem;
+    color: #424242;
+
+}
