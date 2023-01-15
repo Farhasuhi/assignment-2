@@ -288,6 +288,37 @@
     line-height: 1.62rem;
     color: #727272;
 }
+/* photo gallery styles */
+.our-photo-gallery{
+    padding: 100px 100px 0;
+}
+.gallery-title{
+    font-weight: 700;
+    font-size: 2.81rem;
+    color: #131313;
+    padding-bottom: 24px;
+    text-align: center;
+}
+.single-photo img{
+    width: 100%;
+}
+.photo-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    padding-top: 70px;
+    gap:20px;
+    
+}
+.another-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:20px;
+}
+.gallery-btn{
+    padding: 50px;
+}
+
 
 /* footer part styles */
 .footer-details {
@@ -363,5 +394,14 @@
 
     .sponsor-company {
         flex-direction: column;
-    }  
+    } 
+
+     /* photo grid  */
+     .photo-grid{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .gallery-btn{
+        padding: 20px;
+        text-align: center;
+    }
 }
