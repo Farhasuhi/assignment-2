@@ -192,7 +192,6 @@
 }
 
 .years-experience {
-    /* margin: -115px 0px 0px -69px; */
     position: relative;
     right: 50px;
     bottom: 110px;
@@ -408,7 +407,7 @@
 
      /* photo grid  */
      .our-photo-gallery{
-        padding: 0;
+        padding: 70px 0 0;
      }
      .photo-grid,.another-grid{
         grid-template-columns: repeat(1,1fr);
