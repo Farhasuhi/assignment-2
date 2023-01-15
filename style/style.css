@@ -104,6 +104,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 24px;
+    padding-bottom: 45px;
 }
 
 .feature-img img {
@@ -128,11 +129,82 @@
     padding: 43px 0;
 }
 
+/* features list part styles */
+
+.containers {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: flex-start;
+    gap:100px;
+    padding-top: 130px;
+
+}
+
+.features-list {
+    padding-top: 30px;
+}
+
+.features-list-title {
+    font-weight: 700;
+    font-size: 2.81rem;
+    color: #131313;
+    border-left: 5px solid #FF900E;
+    padding-left: 21px;
+}
+
+.features-list-description {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.62rem;
+    color: #727272;
+    padding: 24px 0;
+}
+
+.feature {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+}
+
+.container {
+    padding: 30px;
+    box-shadow: 0px 4px 30px #0000000f;
+    border-radius: 8px;
+}
+
+.container-title {
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: #131313;
+    padding-bottom: 10px;
+}
+
+.container-description {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.625rem;
+    color: #727272;
+
+}
+
+.years-experience {
+    margin: -115px 0px 0px -69px;
+}
+
+.secondary-btn {
+    border: none;
+    font-weight: 700;
+    font-size: 4.0625rem;
+    background: #FF900E;
+    border-radius: 8px;
+    color: #FFFFFF;
+    padding: 40px 20px;
+}
 
 /* responsive */
 
 @media only screen and (max-width:576px) {
-    
+
     /* header part */
     .nav,
     .navbar {
@@ -150,10 +222,24 @@
         flex-direction: column;
         padding-top: 20px;
     }
-    
+
     .feature-img {
         grid-template-columns: repeat(1, 1fr);
         gap: 12px;
     }
-
+    /* features list part */
+    .containers {
+        grid-template-columns: repeat(1,1fr); 
+        padding: 10px;   
+    }
+    .years-experience {
+        margin: -50px -10px;
+    }
+    .features-banner-img img{
+        width: 100%;
+    }
+    .secondary-btn{
+       font-size: 1rem;
+       padding: 10px;
+    }
 }
