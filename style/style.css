@@ -20,7 +20,7 @@
 
 /* header part styles */
 
-          /* nav part */
+/* nav part */
 
 .header {
     background: #ff900e1a;
@@ -57,7 +57,7 @@
     color: #424242;
 }
 
-        /* banner part */
+/* banner part */
 
 .banner-info {
     text-align: center;
@@ -84,7 +84,7 @@
 
 .primary-btn {
     font-weight: 600;
-    font-size: 20px;
+    font-size: 1.25rem;
     border: none;
     background: #FF900E;
     border-radius: 8px;
@@ -92,15 +92,68 @@
     padding: 20px;
 }
 
+/* features part styles */
+
+.features {
+    display: flex;
+    padding-top: 85px;
+    gap: 83px;
+}
+
+.feature-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.feature-img img {
+    border-radius: 8px;
+}
+
+.feature-title {
+    font-weight: 500;
+    font-size: 2.82rem;
+    color: #727272;
+}
+
+.singleword-color {
+    color: #FF900E;
+}
+
+.feature-description {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.62rem;
+    color: #727272;
+    padding: 43px 0;
+}
+
 
 /* responsive */
 
 @media only screen and (max-width:576px) {
-    .nav,.navbar {
+    
+    /* header part */
+    .nav,
+    .navbar {
         flex-direction: column;
-        gap:15px;
+        gap: 15px;
     }
+
     .banner-info {
         padding: 25px 0;
     }
+
+    /* features part */
+
+    .features {
+        flex-direction: column;
+        padding-top: 20px;
+    }
+    
+    .feature-img {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 12px;
+    }
+
 }
