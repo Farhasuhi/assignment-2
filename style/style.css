@@ -301,14 +301,14 @@
 }
 .single-photo img{
     width: 100%;
+    border-radius: 8px;
 }
 .photo-grid{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(3,1fr);
-    padding-top: 70px;
+    padding: 70px 70px 60px;
     gap:20px;
-    
 }
 .another-grid{
     display: grid;
@@ -334,7 +334,11 @@
                             --------------- */
 
 @media only screen and (max-width:576px) {
-
+    .width{
+        width: 100%;
+        max-width: 400px;
+        margin: 0,auto;
+    }
     /* header part */
     .nav,
     .navbar {
@@ -343,7 +347,8 @@
     }
 
     .banner-info {
-        padding: 25px 0;
+       padding: 25px 25px;
+
     }
 
     /* features part */
@@ -397,6 +402,9 @@
     } 
 
      /* photo grid  */
+     .our-photo-gallery{
+        padding: 0;
+     }
      .photo-grid{
         grid-template-columns: repeat(1,1fr);
     }
