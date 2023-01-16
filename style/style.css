@@ -110,6 +110,7 @@
 
 .feature-img img {
     border-radius: 8px;
+    width: 100%;
 }
 
 .feature-title {
@@ -340,12 +341,7 @@
                             --------------- */
 
 @media only screen and (max-width:576px) {
-    /* common part */
-    .width{
-        width: 100%;
-        max-width: 400px;
-        margin: 0,auto;
-    }
+
     /* header part */
     .nav,
     .navbar {
