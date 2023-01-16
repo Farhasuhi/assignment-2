@@ -1,0 +1,71 @@
+
+    /* header part */
+    .nav,
+    .navbar {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .banner-info {
+       padding: 25px 25px;
+
+    }
+
+    /* features part */
+
+    .features {
+        flex-direction: column;
+        padding-top: 20px;
+    }
+
+    .feature-img {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 12px;
+    }
+
+    /* features list part */
+    .containers {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 10px;
+    }
+
+    .years-experience {
+        right: 28px;
+        bottom: 48px;
+    }
+
+    .secondary-btn {
+        font-size: 1rem;
+        padding: 10px;
+    }
+
+    /* some facts */
+    .some-facts {
+        padding-top: 20px;
+    }
+
+    .activites {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+    }
+
+    /* sponsor company */
+    .sponsor {
+        padding: 30px 0;
+    }
+
+    .sponsor-company {
+        flex-direction: column;
+    } 
+
+     /* photo grid  */
+     .our-photo-gallery{
+        padding: 70px 0 0;
+     }
+     .photo-grid,.another-grid{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .gallery-btn{
+        padding: 20px;
+        text-align: center;
+    }
